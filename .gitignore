@@ -29,12 +29,11 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
 # Dependency directories
 node_modules/
 jspm_packages/
+/.pnp
+.pnp.js
 
 # TypeScript v1 declaration files
 typings/
@@ -55,7 +54,22 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env
 
 # next.js build output
 .next
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+build/Release
+
+# misc
+.DS_Store
