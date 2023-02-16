@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Frank3</title>
-        <link rel="icon" href="https://github.com/LeTanque/frank3-portfolio/blob/main/public/favicon.ico" />
+        <link rel="icon" href="https://raw.githubusercontent.com/LeTanque/frank3-portfolio/main/public/favicon.ico" />
       </Head>
       <App />
     </>
