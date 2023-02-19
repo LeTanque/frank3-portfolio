@@ -168,8 +168,6 @@ export const AccordianSection: React.FC = () => {
             </Box>
           </AccordionPanel>
         </AccordionItem>
-
-        
       </Accordion>
     </Flex>
   )

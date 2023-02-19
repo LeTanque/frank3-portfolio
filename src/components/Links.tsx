@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon, ChatIcon } from '@chakra-ui/icons'
 import { Box, Link, Tooltip } from '@chakra-ui/react';
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsCodeSquare } from 'react-icons/bs'
 
 export const Links: React.FC = () => {
   return (
@@ -18,6 +18,14 @@ export const Links: React.FC = () => {
           <Box aria-keyshortcuts='tab'>
             <Link href='https://github.com/letanque' isExternal>
               <Icon as={BsGithub}  boxSize='3rem' ml='1rem' mr='1rem' aria-label='github'/>
+            </Link>
+          </Box>
+        </Tooltip>
+       
+        <Tooltip label='Codesandbox' fontSize='1.2rem'>
+          <Box aria-keyshortcuts='tab'>
+            <Link href='https://codesandbox.io/u/LeTanque' isExternal>
+              <Icon as={BsCodeSquare}  boxSize='3rem' ml='1rem' mr='1rem' aria-label='codesandbox'/>
             </Link>
           </Box>
         </Tooltip>
