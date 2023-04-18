@@ -424,11 +424,11 @@ export const AccordianSection: React.FC = () => {
           >
             <Box mb="2rem">
               As a child, I saw myself as an artist. When my Grandfather bought me a computer in my
-              teens, I found a new medium to create with. I was infatuated with the early internet.
-              Soon I would build my own PCs, host LAN parties to play Starcraft II: Brood Wars, and
-              teach myself linux through the open-source community and lurking in UNIX message
-              boards. My first job was an internship at Sun Microsystems (thanks to my Dad and two
-              teachers with whom I was the unofficial IT specialist for), which I loved.
+              teens, I became infatuated with the early internet. Soon I would build my own PCs,
+              host LAN parties to play Starcraft II: Brood Wars, and teach myself linux through the
+              open-source community and lurking in UNIX message boards. My first job was an
+              internship at Sun Microsystems (thanks to my Dad and two teachers with whom I was the
+              unofficial IT specialist for), which I loved.
             </Box>
 
             <Box mb="2rem">
