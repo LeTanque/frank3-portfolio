@@ -58,7 +58,63 @@ export const AccordianSection: React.FC = () => {
               fontWeight="black"
               color="GrayText"
             >
-              Highlights
+              Values
+            </Box>
+            <AccordionIcon />
+          </AccordionButton>
+          <AccordionPanel pb={4} fontWeight="medium">
+            <Box mb="2rem" display="flex" justifyContent="center" flexWrap="wrap">
+              <Badge
+                variant="solid"
+                colorScheme="linkedin"
+                margin="1rem 0.5rem 0rem 0.5rem"
+                pr="0.7rem"
+                pl="0.7rem"
+                pt="0.5rem"
+                pb="0.5rem"
+                fontSize={{ base: '1rem', md: '1.3rem', lg: '1.6rem' }}
+              >
+                It takes a village
+              </Badge>
+              <Badge
+                variant="solid"
+                colorScheme="facebook"
+                margin="1rem 0.5rem 0rem 0.5rem"
+                pr="0.7rem"
+                pl="0.7rem"
+                pt="0.5rem"
+                pb="0.5rem"
+                fontSize={{ base: '1rem', md: '1.3rem', lg: '1.6rem' }}
+              >
+                Take ownership of your commitments
+              </Badge>
+              <Badge
+                variant="solid"
+                colorScheme="messenger"
+                margin="1rem 0.5rem 0rem 0.5rem"
+                pr="0.7rem"
+                pl="0.7rem"
+                pt="0.5rem"
+                pb="0.5rem"
+                fontSize={{ base: '1rem', md: '1.3rem', lg: '1.6rem' }}
+              >
+                Over communication {'>'} under communication
+              </Badge>
+            </Box>
+          </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+          <AccordionButton>
+            <Box
+              as="span"
+              flex="1"
+              textAlign="left"
+              fontSize={{ base: '1.5rem', md: '1.75rem', lg: '2rem' }}
+              fontWeight="black"
+              color="GrayText"
+            >
+              Nearside
             </Box>
             <AccordionIcon />
           </AccordionButton>
@@ -68,9 +124,6 @@ export const AccordianSection: React.FC = () => {
               fontSize={{ base: '1.5rem', md: '1.75rem', lg: '2rem' }}
               fontWeight="medium"
             >
-              <Box fontWeight="bold" fontSize={{ base: '1.5rem', md: '1.75rem', lg: '2rem' }}>
-                Nearside
-              </Box>
               <li>
                 Part of the founding team at Nearside where I helped find product market fit for
                 thousands of users.
@@ -110,7 +163,7 @@ export const AccordianSection: React.FC = () => {
               fontWeight="black"
               color="GrayText"
             >
-              Dollero
+              Dollero Mission
             </Box>
             <AccordionIcon />
           </AccordionButton>
@@ -177,7 +230,7 @@ export const AccordianSection: React.FC = () => {
               fontWeight="black"
               color="GrayText"
             >
-              Ikigai
+              Ikigai Philosophy
             </Box>
             <AccordionIcon />
           </AccordionButton>
@@ -200,56 +253,6 @@ export const AccordianSection: React.FC = () => {
 
             <Box mb="2rem">
               I feel blessed to have discovered my ikigai in software engineering.
-            </Box>
-          </AccordionPanel>
-        </AccordionItem>
-
-        <AccordionItem>
-          <AccordionButton>
-            <Box
-              as="span"
-              flex="1"
-              textAlign="left"
-              fontSize={{ base: '1.5rem', md: '1.75rem', lg: '2rem' }}
-              fontWeight="black"
-              color="GrayText"
-            >
-              Values
-            </Box>
-            <AccordionIcon />
-          </AccordionButton>
-          <AccordionPanel pb={4} fontWeight="medium">
-            <Box mb="2rem" display="flex" justifyContent="center" flexWrap="wrap">
-              <Badge
-                variant="solid"
-                colorScheme="twitter"
-                margin="1rem 0.5rem 0rem 0.5rem"
-                pr="0.7rem"
-                pl="0.7rem"
-                fontSize={{ base: '1.4rem', md: '1.5rem', lg: '1.6rem' }}
-              >
-                Trust
-              </Badge>
-              <Badge
-                variant="solid"
-                colorScheme="twitter"
-                margin="1rem 0.5rem 0rem 0.5rem"
-                pr="0.7rem"
-                pl="0.7rem"
-                fontSize={{ base: '1.4rem', md: '1.5rem', lg: '1.6rem' }}
-              >
-                Ownership
-              </Badge>
-              <Badge
-                variant="solid"
-                colorScheme="twitter"
-                margin="1rem 0.5rem 0rem 0.5rem"
-                pr="0.7rem"
-                pl="0.7rem"
-                fontSize={{ base: '1.4rem', md: '1.5rem', lg: '1.6rem' }}
-              >
-                Communication
-              </Badge>
             </Box>
           </AccordionPanel>
         </AccordionItem>
@@ -420,34 +423,62 @@ export const AccordianSection: React.FC = () => {
             fontSize={{ base: '1.5rem', md: '1.75rem', lg: '2rem' }}
           >
             <Box mb="2rem">
-              My background is unconventional and I used to see it as a weakness. But sometime
-              around 2016, I realized my background is one of my strengths.
-            </Box>
-
-            <Box mb="2rem">
               As a child, I saw myself as an artist. When my Grandfather bought me a computer in my
               teens, I found a new medium to create with. I was infatuated with the early internet.
-              I built my own PCs, hosted LAN parties to play Starcraft II: Brood Wars, and taught
-              myself linux through the open-source community and lurking in UNIX message boards. My
-              first job was an internship at Sun Microsystems (thanks to my Dad and two teachers
-              with whom I was the unofficial IT specialist for), which I loved.
+              Soon I would build my own PCs, host LAN parties to play Starcraft II: Brood Wars, and
+              teach myself linux through the open-source community and lurking in UNIX message
+              boards. My first job was an internship at Sun Microsystems (thanks to my Dad and two
+              teachers with whom I was the unofficial IT specialist for), which I loved.
             </Box>
 
             <Box mb="2rem">
               In college, I wanted to major in Computer Art. My counselor informed me that Computer
               Art wasn't an offered degree and it would be risky to define my own degree. She
               advised me to choose Graphic Design since I was passionate about art and SJSU had a
-              great Graphic Design program. Her logic was that there were very few opportunities to
-              creatively express oneself in Computer Science. I took her advice and soon realized I
-              was on a path that didn't align with me. So I decided to wander into the unknown,
-              dropped out of college, and embarked on a journey of my own design.
+              great Graphic Design program. Her logic was that there would be very few opportunities
+              to express myself creatively in Computer Science. I took her advice but soon realized
+              I was on a path that didn't align with me. So I decided to wander into the unknown and
+              dropped out of college. I embarked on a journey of my own design.
             </Box>
 
             <Box mb="2rem">
-              Eventually, I learned that all skills honed with focus and passion can be forms of
-              creative expression, including computer science and software engineering. Taking an
-              idea and making it real, through whatever means, is now my preferred form of artistic
-              expression.
+              Several years later, I discovered bitcoin and traded over 500 btc on localbitcoins,
+              MtGox, and other platforms. I capitalize on global abritrage opportunities. I read
+              books on investing, on day trading, dove deep into how bitcoin worked, and made myself
+              an "expert" on the subject. A Stanford VLAB member discovered me and after chatting
+              over coffee, invited me to speak to faculty and students at Stanford about blockchain
+              technologies. It changed my life to be among so many smart people who asked very smart
+              questions. I was invited to co-chair a panel discussion called&nbsp;
+              <Link href="https://www.youtube.com/watch?v=22Cr_CD2lJw" isExternal>
+                Virtual Currencies: Gold Rush or Fools' Gold, The Rise of Bitcoin in a Digital
+                Economy (youtube link)
+                <Icon boxSize="1.8rem" ml="0.5rem" mb="0.3rem">
+                  <ExternalLinkIcon />
+                </Icon>
+              </Link>
+              , which I happily did.
+            </Box>
+
+            <Box mb="2rem">
+              VLAB, for me, was validation that I could pursue whatever I put my mind to. I saught
+              knowledge, took action, and found a group of people that I highly respected for their
+              humility and intellect. I found people that I could be my nerdy self with, finally!
+            </Box>
+
+            <Box mb="2rem">
+              My background is unconventional and I used to see it as a weakness. But, sometime
+              around 2016, I realized my background is one of my strengths. I am an artist. My
+              canvas is the world around us. My mediums are languages and timeless patterns deployed
+              through a CI tunnel to a target cloud. My work doesn't hang in a museum or gallery, it
+              sits in your pocket or is viewed on your laptop. I write for humans because I am one.
+              I lean towards maximum readability because engineering, like art, is bound to be
+              iterated upon. Writing software is a team activity like a mural painted with friends.
+            </Box>
+
+            <Box mb="2rem">
+              Today, I believe that all skills honed with focus and passion can be forms of creative
+              expression, including computer science and software engineering. Taking an idea and
+              making it real, through whatever means, is my preferred form of artistic expression.
             </Box>
           </AccordionPanel>
         </AccordionItem>
